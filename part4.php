@@ -14,7 +14,7 @@ function max_array($arr){
 */
 function max_array($arr){
     $max_number = $arr[0];
-    foreach($arr as $arr){
+    foreach($arr as $a){
         if ($arr > $max_number){
             $max_number = $arr;
         }
