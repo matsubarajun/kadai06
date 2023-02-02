@@ -6,7 +6,7 @@ $arr という配列の仮引数を持ち、数値が入った配列array(1, 3, 
 function count_array($arr){
     $result = 1;
 
-    foreach($arr as $arr){
+    foreach($arr as $a){
         $result *= $arr;
     }
         return $result;
